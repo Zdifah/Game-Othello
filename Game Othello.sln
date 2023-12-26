@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34322.80
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Game Othello", "Game Othello\Game Othello.csproj", "{2C129C38-8045-424C-8C2A-8D14B18AC7B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Game Othello.Test", "Game Othello.Test\Game Othello.Test.csproj", "{F945F9DB-BFC6-49F8-ACD1-C3931B840077}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2C129C38-8045-424C-8C2A-8D14B18AC7B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C129C38-8045-424C-8C2A-8D14B18AC7B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C129C38-8045-424C-8C2A-8D14B18AC7B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C129C38-8045-424C-8C2A-8D14B18AC7B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F945F9DB-BFC6-49F8-ACD1-C3931B840077}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F945F9DB-BFC6-49F8-ACD1-C3931B840077}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F945F9DB-BFC6-49F8-ACD1-C3931B840077}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F945F9DB-BFC6-49F8-ACD1-C3931B840077}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {024829E3-DBDD-41D0-AB43-C4F9C1C35737}
+	EndGlobalSection
+EndGlobal
