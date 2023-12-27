@@ -146,7 +146,7 @@ namespace Othello
                 _logger?.LogInformation("Success Recreate Size Board {Rows}x{Cols}", Rows, Cols);
                 return true;
             }
-            _logger.LogWarning("Failed Recreate Size Board {size}x{size}", size, size);
+            _logger?.LogWarning("Failed Recreate Size Board {size}x{size}", size, size);
             return false;
         }
 
@@ -221,7 +221,7 @@ namespace Othello
                 }
                 else
                 {
-                    _logger.LogWarning("Failed Added Player {name}-{id} with a {disc} disc", player.Name, player.Id, disc);
+                    _logger?.LogWarning("Failed Added Player {name}-{id} with a {disc} disc", player.Name, player.Id, disc);
                     return false;
                 }
             }
