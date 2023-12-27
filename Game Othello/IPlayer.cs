@@ -2,7 +2,7 @@
 {
     public interface IPlayer
     {
-        int Id { get; }
-        string Name { get; }
+        int Id { get;}
+        string Name { get;}
     }
 }

@@ -23,7 +23,7 @@ namespace Othello
         /// </summary>
         public Dictionary<Disc, IPlayer> Players { get; private set; }
 
-        /// <summary>
+        /// <summary>212
         /// contains information about disks on the board
         /// </summary>
         public Disc[,] Board { get; private set; }
@@ -146,7 +146,6 @@ namespace Othello
                 _logger?.LogInformation("Success Recreate Size Board {Rows}x{Cols}", Rows, Cols);
                 return true;
             }
-
             _logger.LogWarning("Failed Recreate Size Board {size}x{size}", size, size);
             return false;
         }
