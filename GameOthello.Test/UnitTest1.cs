@@ -9,10 +9,31 @@ namespace Game_Othello.Test
     {
         private GameController _game;
 
+
         [SetUp]
         public void Setup()
         {
+            
             _game = new GameController();
+        }
+
+        [TestCase(2)]
+        [TestCase(4)]
+        [TestCase(6)]
+        public void SetSizeBoard_ShouldSuccesReturnTrue_SizeEven(int size)
+        {
+            bool actual = _game.SetSizeBoard(size);
+            Assert.IsTrue(actual);
+        }
+
+        [TestCase(1)]
+        [TestCase(3)]
+        [TestCase(5)]
+        public void SetSizeBoard_ShouldFailedReturnFalse_SizeOdd(int size)
+        {
+            bool actual = _game.SetSizeBoard(size);
+
+            Assert.IsFalse(actual);
         }
 
         [Test]

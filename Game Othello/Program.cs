@@ -23,7 +23,6 @@ class Program
 
         var logger = serviceProvider.GetRequiredService<ILogger<GameController>>();
 
-
         Player player1 = new Player(1, "Zdifah");
         Player player2 = new Player(2, "ShockTherapy");
 
